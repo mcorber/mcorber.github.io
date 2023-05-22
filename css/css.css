@@ -1,0 +1,359 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ui1rhn');
+  src:  url('../fonts/icomoon.eot?ui1rhn#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ui1rhn') format('truetype'),
+    url('../fonts/icomoon.woff?ui1rhn') format('woff'),
+    url('../fonts/icomoon.svg?ui1rhn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: "\e93a";
+}
+
+body{
+  margin: 0;
+}
+
+
+
+h1{
+  margin-top: 0; 
+  margin-bottom: 0;
+  color: red;
+   align-content:center;
+   text-align: center;
+   font-size: 100px;
+}
+
+.container1{
+
+  background-color: #ccc;
+
+}
+
+header{
+   background-color: black;
+   margin: 0;
+   width: 100%;
+}
+
+ 
+  .container1 ul {
+    display: grid;
+   padding-left: 0;
+   margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+   margin-bottom: 0;
+   grid-template-columns: auto auto auto auto auto;
+  
+ }
+  .container1 li{
+  display: inline-block;
+ }
+ 
+
+ 
+ .container1 li a{
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   background-color: black;
+   padding: .5em 1em;
+   display: block;
+ }
+ 
+
+ 
+ nav li a:hover {
+   background-color: red;
+ }
+
+
+
+ 
+ 
+ .fotoresumen{
+
+  display: grid;
+  grid-template-columns: auto auto;
+  
+  height: 500px;
+  
+ }
+
+
+ div#gallina{
+
+      width: 100%;
+      height: 500px;
+      
+}
+
+
+ #gallina img{
+ 
+  width: 100%;
+  height: 100%;
+ }
+
+ article.resumen{
+
+  border-radius: 2px;
+  box-sizing: 500px;
+  
+  height: 500px;
+  background-color: papayawhip;
+  
+  border: 1px solid black;
+
+ }
+
+ .resumen{
+  margin:0;
+ }
+
+ .resumen p{
+  margin: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  
+ }
+
+ .resumen h2{
+  text-align: center;
+  font-style: italic;
+ }
+
+.contenedor2{
+  width: 100%;
+  
+  background: papayawhip;
+}
+
+.contenedor2 ul{
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 1200px;
+}
+
+.contenedor2 li{
+  text-transform: uppercase;
+  display: block;
+  border: 1px solid;
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+
+
+}
+.contenedor2 li:hover{
+  background-color: red;
+}
+
+
+.contenedor2 a{
+  text-decoration: none;
+  color: white;
+
+
+}
+
+.infocontact{
+  margin-left: 60px;
+}
+
+footer{
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer aside+aside{
+  margin-left: 200px;
+}
+
+aside div.avisoLegal{
+  width: 250px;
+  height:120px;
+  margin-bottom: 30px;
+}
+aside img{
+  width: 100%;
+  height: 100%;
+}
+
+span{
+  margin: 0;
+}
+
+.qs{
+  display: grid;
+  grid-template-columns: auto auto;
+
+  margin: 30px;
+}
+
+.qs div{
+  margin-top: 0;
+  background-color: papayawhip;
+  border: 1px solid black;
+}
+
+.qs div+div{
+  margin-left: 30px;
+}
+
+.qs div p{
+  margin: 10px;
+  text-align: center;
+  justify-items:baseline;
+  
+}
+
+.bodyqs{
+  background-color: bisque;
+}
+
+.qs div{
+  height: 407px;
+}
+
+.servicios{
+  background-color: papayawhip;
+}
+
+.servicios div{
+  margin: 40px;
+}
+
+.contactoBody{
+  background-color: papayawhip;
+}
+
+.contactoBody h2{
+  text-align: center;
+}
+.contactoBody h3{
+  text-align: center;
+}
+
+.contactoBody form{
+  text-align: center;
+}
+
+.contactoBody section{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+button a{
+  text-decoration: none;
+}
+
+.bodyProduccionPropia{
+  align-items: center;
+  background-color: papayawhip;
+}
+
+.bodyProduccionPropia div{
+  margin-top: 70px;
+  text-align: center;
+}
+
+
+
+
+h2{
+  vertical-align: baseline;
+  text-align: center;
+}
+
+h3{
+  vertical-align: baseline;
+  text-align: center;
+}
+
+
+
+.ventashuevoscamperos{
+  margin-left: 480px;
+}
+
+.paisa{
+  margin-left: 480px;
+}
+
+.bodyproductos{
+  background-color: papayawhip;
+}
+
+.huevoscamperos{
+  width: 500px; 
+  height: 100px; 
+  margin: 0 auto;
+}
+
+.huevoscamperos th{
+  color: black; 
+   
+  font-size: 18px; 
+  line-height: 22px; 
+  text-align: center;
+}
+
+.ventahuevoscamperos{
+  width: 500px; 
+  height: 200px; 
+  margin: 0 auto;
+}
+
+article{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.carrito{
+  background-color: papayawhip;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.carrito table{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.carrito td{
+  height: 60px;
+  text-align: center;
+}
+
+.comprar{
+  position: absolute;
+  margin-left: 1200px;
+}
